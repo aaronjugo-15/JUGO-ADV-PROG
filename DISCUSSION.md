@@ -4,6 +4,9 @@
 ### 2ECE-A
 ### 9/1/2026 
 
+
+
+
 ### **Task 1: Word Rotation Problem**
 In the first task, we were asked to create a function that rotates a word by moving the first character to the end while keeping the remaining letters in their original order and capitalization.
 
