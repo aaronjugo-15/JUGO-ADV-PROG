@@ -10,7 +10,16 @@ To solve this, I used basic sequence indexing and slicing. The slicing expressio
 
 During testing, I noticed that spaces inside or around the word would disrupt the text formatting. To address this, I used `.replace(" ", "")` to clean out spaces first. I also made sure that passing an empty string won't cause an IndexError
 
+print("Word Rotation Problem \n ")
 
+`def rotate_word(text):
+    x = text.replace(" ","")
+    t = x[1:] + x[0]
+    return t
+
+text = input("\nInput your own word: ")
+
+rotate_word(text)`
 
 ### **Task 2: Username Builder Problem**
 
