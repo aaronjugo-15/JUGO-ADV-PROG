@@ -2,12 +2,12 @@
 ## EXPERIMENT 1: INTRODUCTION TO PYTHON PROGRAMMING
 ### Aaron Siegfreid R. Jugo
 ### 2ECE-A
-### 9/1/2026 
+### 9/1/2026 \
 
 
 
 
-### **Task 1: Word Rotation Problem**
+\### **Task 1: Word Rotation Problem**
 In the first task, we were asked to create a function that rotates a word by moving the first character to the end while keeping the remaining letters in their original order and capitalization.
 
 To solve this, I used basic sequence indexing and slicing. The slicing expression `text[1:]` takes all characters starting from index 1 to the end, and adding` text[0] `places the very first character at the back:
